@@ -1,5 +1,5 @@
 {
-  "name": "mixins-scss",
+  "name": "awesome-mixins-scss",
   "version": "1.0.1",
   "description": "Awesome mixins for SCSS",
   "main": "src/index.scss",
