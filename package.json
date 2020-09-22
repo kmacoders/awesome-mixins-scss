@@ -1,6 +1,6 @@
 {
   "name": "mixins-scss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Awesome mixins for SCSS",
   "main": "src/index.scss",
   "scripts": {
