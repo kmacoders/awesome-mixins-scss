@@ -4,7 +4,7 @@
 * @param {String} $position - relative | absolute | fixed
 * @param {Length} $args - List direction property and value
 * 
-* @example scss - Set rem font-size to `.foo`
+* @example
 * - Usage:
 * .foo {
 *    @include position(relative, top 0 left 1em);
@@ -28,6 +28,6 @@
             #{$o}: nth($args, $i + 1);
         }
     }
-    
+
     position: $position;
 }

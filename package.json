@@ -1,0 +1,26 @@
+{
+  "name": "awesome-mixins-scss",
+  "version": "1.0.0",
+  "description": "Awesome mixins for SCSS",
+  "main": "src/index.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmacoders/awesome-mixins-scss.git"
+  },
+  "author": "kmacoders",
+  "keywords": [
+    "mixins",
+    "functions",
+    "sass",
+    "scss",
+    "css"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmacoders/awesome-mixins-scss/issues"
+  },
+  "homepage": "https://github.com/kmacoders/awesome-mixins-scss#readme"
+}
