@@ -1,8 +1,8 @@
-/* Screen size */
-$XS: 480px;
-$SM: 768px;
-$MD: 1024px;
-$XL: 1170px;
+/* Screen size ( Size này cùng với Theme Config global cho JS) */
+$SM: 576px;
+$MD: 768px;
+$LG: 992px;
+$XL: 1200px;
 
 /*
 * Responsive element follow by screen size
@@ -10,7 +10,7 @@ $XL: 1170px;
 * @param $screen-size: screen size
 *
 * @example
-* .foo { 
+* .foo {
 *   font-size: 10px;
 *   @include responsive(MD) {
 *       font-size : 12px;
@@ -20,16 +20,16 @@ $XL: 1170px;
 *   }
 */
 @mixin responsive($screen-size) {
-    @if $screen-size == XS {
-        @media only screen and (min-width: $XS) {
-            @content;
-        }
-    } @else if $screen-size == SM {
+    @if $screen-size == SM {
         @media only screen and (min-width: $SM) {
             @content;
         }
     } @else if $screen-size == MD {
         @media only screen and (min-width: $MD) {
+            @content;
+        }
+    } @else if $screen-size == LG {
+        @media only screen and (min-width: $LG) {
             @content;
         }
     } @else if $screen-size == XL {
